@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'titleFont';
+    src: url('../fonts/Demo_ConeriaScript.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.navBarContainer{
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    padding-left: 6%;
+    font-size: 2.5rem;
+    font-family: 'titleFont';
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 6%;
+    width: 20%;
+}
+
+.navBarButton{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.navBarButton:hover{
+    color:rgb(255, 130, 84);
+    cursor: pointer;
+}
+
+.activePage{
+    border-bottom: 1px solid white;
+}
